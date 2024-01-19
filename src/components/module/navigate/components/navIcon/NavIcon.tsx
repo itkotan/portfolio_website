@@ -1,17 +1,16 @@
 import { type FC } from 'react'
 
 import { Contact } from '../contact/Contact'
-import { EdgingGit } from '../edgingGit/edgingGit'
+import { EdgingGit } from '../edgingGit/EdgingGit'
 
 import { NavigateLink } from './components/NavigateLink'
 
 import './navIcon.css'
 export const NavIcon: FC = () => {
   return (
-    <div className='w-[100%] h-[100%] flex flex-col'>
+    <div className='w-[100%] h-[90%] flex flex-col items-center'>
       <EdgingGit />
-      <div className='w-[80%] m-auto text-white text-sm'>Меню</div>
-      <div className='relative'>
+      <div className='w-[100%] relative'>
         <NavigateLink />
       </div>
       <Contact />

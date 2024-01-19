@@ -9,12 +9,12 @@ export const Contact: FC = () => {
   return (
     <div className='w-[80%] m-auto border-2 rounded-lg py-3'>
       <ul className='flex justify-between'>
-        <li className={`${styleLi} border-r-2`}>
+        <li className={`${styleLi} `}>
           <div className='w-[1.5rem]'>
             <img className='w-full' src={gitHub} />
           </div>
         </li>
-        <li className={`${styleLi} border-r-2`}>
+        <li className={`${styleLi}`}>
           <div className='w-[1.5rem]'>
             <img className='w-full' src={sv} />
           </div>

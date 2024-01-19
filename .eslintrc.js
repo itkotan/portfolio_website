@@ -8,15 +8,12 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: [
-    'plugin:@typescript-eslint/recommended',
-    'plugin:@typescript-eslint/recommended-requiring-type-checking'
-  ],
+  extends: ['plugin:react/recommended', 'standard-with-typescript', 'prettier'],
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
       parserOptions: {
-        project: ['./tsconfig.json', './tsconfig.node.json']
+        project: ['./tsconfig.json']
       }
     }
   ],

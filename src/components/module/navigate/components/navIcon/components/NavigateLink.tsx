@@ -27,7 +27,7 @@ export const NavigateLink: FC = () => {
         className={`w-[3px] h-[30px] bg-[#787BFE] absolute right-0 slider`}
         style={{ top: `${position}px` }}
       ></div>
-      <ul className='w-[70%] flex items-center flex-col m-auto nav_container'>
+      <ul className='w-[80%] flex items-center flex-col m-auto nav_container'>
         <li className={classLi}>
           <NavLink
             to={'/'}
@@ -38,7 +38,7 @@ export const NavigateLink: FC = () => {
             <div className='w-[2rem]'>
               <img src={profile} className={classImg} />
             </div>
-            <div className='text-white ml-3 text'>Обо мне</div>
+            <div className='text-white ml-3'>Обо мне</div>
           </NavLink>
         </li>
         <li className={classLi}>

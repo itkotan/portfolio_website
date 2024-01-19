@@ -1,8 +1,0 @@
-.zoom_straight {
-  transition: transform 0.3s ease;
-  transform: scale(1);
-}
-
-.zoom_straight:hover {
-  transform: scale(1.01);
-}
